@@ -51,7 +51,6 @@ void Solve(void)
 		}
 		else if(a[i]>ma)
 		{
-
 			ans[i]=ans[i-1]+cnt[ma]+1;
 			ma=a[i];
 		}
